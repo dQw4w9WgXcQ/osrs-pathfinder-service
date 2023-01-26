@@ -23,7 +23,7 @@ repositories {
 ext["gson.version"] = "2.10.1"//2.9 doesn't support records
 
 dependencies {
-    implementation("github.dqw4w9wgxcq.pathfinder:graph:1.0")
+    implementation("github.dqw4w9wgxcq.pathfinder:pathfinding:1.0")
     implementation("io.sentry:sentry-spring-boot-starter-jakarta:6.12.1")
 //	implementation("org.springframework.boot:spring-boot-starter-security")
     implementation("org.springframework.boot:spring-boot-starter-web")
