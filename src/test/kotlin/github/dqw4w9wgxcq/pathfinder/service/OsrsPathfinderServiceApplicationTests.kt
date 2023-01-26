@@ -11,11 +11,11 @@ class OsrsPathfinderServiceApplicationTests {
     private val log = LoggerFactory.getLogger(OsrsPathfinderServiceApplicationTests::class.java)
 
     @Autowired
-    private lateinit var pathfinderService: PathfinderService
+    private lateinit var pathfindingService: PathfindingService
 
     @Test
     fun contextLoads() {
-        assertThat(pathfinderService).isNotNull
+        assertThat(pathfindingService).isNotNull
     }
 
 }

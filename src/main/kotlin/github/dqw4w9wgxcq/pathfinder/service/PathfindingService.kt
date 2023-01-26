@@ -2,9 +2,6 @@ package github.dqw4w9wgxcq.pathfinder.service
 
 import github.dqw4w9wgxcq.pathfinder.domain.Agent
 import github.dqw4w9wgxcq.pathfinder.pathfinding.Pathfinding
-import github.dqw4w9wgxcq.pathfinder.pathfinding.domain.ComponentGrid
-import github.dqw4w9wgxcq.pathfinder.pathfinding.linkdistances.LinkDistances
-import github.dqw4w9wgxcq.pathfinder.pathfinding.localpaths.LocalPaths
 import github.dqw4w9wgxcq.pathfinder.pathfinding.store.GraphStore
 import github.dqw4w9wgxcq.pathfinder.pathfinding.store.LinkStore
 import github.dqw4w9wgxcq.pathfinder.service.dto.PathRequest
@@ -12,7 +9,7 @@ import github.dqw4w9wgxcq.pathfinder.service.dto.PathResponse
 import org.springframework.stereotype.Service
 
 @Service
-class PathfinderService {
+class PathfindingService {
     private val pathfinding: Pathfinding
 
     init {

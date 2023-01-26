@@ -12,11 +12,11 @@ import org.springframework.web.bind.annotation.RestController
 
 @SpringBootApplication
 @RestController
-class OsrsPathfinderServiceApplication(val pathfinderService: PathfinderService) {
+class OsrsPathfinderServiceApplication(val pathfindingService: PathfindingService) {
     @CrossOrigin
     @PostMapping("/")
     fun index(@RequestBody req: PathRequest): ResponseEntity<PathResponse> {
-        val res = pathfinderService.findPath(req)
+        val res = pathfindingService.findPath(req)
         return ResponseEntity.ok(res)
     }
 }
