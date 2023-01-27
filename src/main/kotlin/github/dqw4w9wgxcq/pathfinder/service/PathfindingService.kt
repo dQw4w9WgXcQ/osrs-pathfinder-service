@@ -1,6 +1,6 @@
 package github.dqw4w9wgxcq.pathfinder.service
 
-import github.dqw4w9wgxcq.pathfinder.domain.Agent
+import github.dqw4w9wgxcq.pathfinder.commons.domain.Agent
 import github.dqw4w9wgxcq.pathfinder.pathfinding.Pathfinding
 import github.dqw4w9wgxcq.pathfinder.pathfinding.store.GraphStore
 import github.dqw4w9wgxcq.pathfinder.pathfinding.store.LinkStore
